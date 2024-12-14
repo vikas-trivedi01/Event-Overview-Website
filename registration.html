@@ -176,6 +176,113 @@
 
     <br />
 
+    <div id="regi-fm">
+      <div class="row">
+        <h3 class="text-center" id="wl-reg">Welcome to Registration</h3>
+        <div class="col-sm-10 reg-htext">
+          Register with The Elite Events to receive personalized service and
+          exclusive offers. Whether you're planning a wedding, engagement,
+          birthday party, or seminar, our team is here to make your event a
+          success.
+        </div>
+        <div class="col-sm-2 reg-htext">
+          Dont Have An Account ?<br /><button
+            type="button"
+            class="btn btn-primary reg-sign"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            Sign Up&nbsp;
+          </button>
+        </div>
+      </div>
+      <hr />
+
+      <div class="container mt-5 reg-txt">
+        <form>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Your</span>
+            <input type="text" class="form-control" placeholder="First Name" />
+            <input type="text" class="form-control" placeholder="Last Name" />
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number:</label>
+            <input type="text" class="form-control" id="phone" />
+          </div>
+
+          <div class="mb-3">
+            <label for="address" class="form-label">Address:</label>
+            <input type="text" class="form-control" id="address" />
+          </div>
+
+          <div class="mb-3">
+            <label for="eventType" class="form-label">Event Type:</label>
+            <select class="form-select" id="eventType">
+              <option>Wedding</option>
+              <option>Engagement</option>
+              <option>Birthday Party</option>
+              <option>Seminar</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="eventDate" class="form-label">Event Date:</label>
+            <input type="date" class="form-control" id="eventDate" />
+          </div>
+
+          <div class="mb-3">
+            <label for="guests" class="form-label">Number of Guests:</label>
+            <input type="number" class="form-control" id="guests" />
+          </div>
+
+          <div class="mb-3">
+            <label for="requirements" class="form-label"
+              >Specific Requirements:</label
+            >
+            <textarea
+              class="form-control"
+              id="requirements"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn" id="regbtn" onclick="sub()">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container mt-5 reg-foot">
+      <div class="row">
+        <h2 class="text-center">Benefits of Registration</h2>
+
+        <div class="col-sm-6">
+          <ul>
+            <li>Exclusive Offers</li>
+          </ul>
+          Enjoy special discounts and offers available only to registered users.
+        </div>
+        <div class="col-sm-6">
+          <ul>
+            <li>Personalized Service</li>
+          </ul>
+          Help us understand your preferences to provide tailored services for
+          your event.
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <br />
+          <div class="text-center">
+            Testimonials<br />"The Elite Events made our wedding a dream come
+            true. Their attention to detail was impeccable." - Happy Clients
+          </div>
+        </div>
+      </div>
+    </div>
 
     <br />
 
@@ -196,7 +303,7 @@
                 </div>
               </div>
   
-  
+
               <div class="col-sm-4">
                 <div class="foot-mglf">
                   <h3 class="foot-link">Links</h3><br><br>
@@ -213,7 +320,6 @@
   
                 </div>
               </div>
-  
   
               <div class="col-sm-4">
                 <div class="foot-mglf">
