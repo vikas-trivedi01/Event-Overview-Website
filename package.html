@@ -671,6 +671,25 @@
   </footer>
 
   <!-- footer End -->
+  <script>
+    function showPackages(eventType) {
+    let packages = document.querySelectorAll('.packages');
+    packages.forEach(package => {
+        package.style.display = 'none';
+    });
 
+    let selectedPackages = document.querySelectorAll(`.${eventType}-pr`);
+    selectedPackages.forEach(package => {
+        package.style.display = 'block';
+    });
+
+    if (eventType === 'all') {
+        packages.forEach(package => {
+            package.style.display = 'block';
+        });
+    }
+}
+
+   </script>
 </body>
 </html>
